@@ -129,13 +129,7 @@ img {
 }
 
 .navigation__items {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  gap: 1rem;
-  width: 100%;
+  display: none;
 }
 
 .navigation__link {
@@ -346,6 +340,7 @@ img {
 .contact__container {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .contact__name {
@@ -414,6 +409,12 @@ img {
   }
 
   .navigation__items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
     gap: 2rem;
   }
 
@@ -459,6 +460,10 @@ img {
   
   .work__description {
     width: 50%;
+  }
+
+  .contact__container {
+    flex-direction: row;
   }
 }
 
