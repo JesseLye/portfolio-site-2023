@@ -118,7 +118,7 @@ const isInViewport = (el) => {
 };
 
 const points = [...document.querySelectorAll('#navigation > a')].map(el => el.id.split('-')[0]);
-let hiddenElementIds = ['work-klackit', 'work-yabbr', 'work-denver'];
+let hiddenElementIds = ['work-data42', 'work-klackit', 'work-yabbr', 'work-denver'];
 // let prevElement = null;
 
 for (const pointName of points) {
