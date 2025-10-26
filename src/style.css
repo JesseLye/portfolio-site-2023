@@ -20,6 +20,14 @@ img {
   /* border-bottom: 1px dotted black; */
 }
 
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
 .tooltip .tooltip__text {
   visibility: hidden;
   width: 120px;
